@@ -9,7 +9,7 @@
 	}
   }
   
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 	body {
 		background-color: #121421;
 		color: #e8ebfc;
@@ -18,7 +18,12 @@
 	a {
 		color: #b3bfff;
 	}
-  }
+}
+
+.avatar {
+	width: 256px;
+	height: 256px;
+}
 
 .button.gz-green {
 	color:white;
