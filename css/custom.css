@@ -1,11 +1,24 @@
-body {
-	background-color: #e8ebfc;
-	color: #323234;
-}
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #e8ebfc;
+		color: #323234;
+	}
 
-a {
-    color: #0d2673;
-}
+	a {
+		color: #0d2673;
+	}
+  }
+  
+  @media (prefers-color-scheme: dark) {
+	body {
+		background-color: #121421;
+		color: #e8ebfc;
+	}
+
+	a {
+		color: #b3bfff;
+	}
+  }
 
 .button.gz-green {
 	color:white;
